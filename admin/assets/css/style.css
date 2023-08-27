@@ -1645,7 +1645,7 @@ header .form-inline .search-form.close {
 
 .card .box-title {
   font-weight: 600;
-  font-size: 1em;
+  font-size: 20px;
   padding: 5px 0;
 }
 
@@ -3374,4 +3374,15 @@ footer.site-footer .footer-inner a {
 .field_error {
   color: red;
   margin-top: 10px;
+}
+
+.card .box-link {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.card .box-link a{
+  color: #000;
+  text-decoration: underline;
 }

@@ -13,6 +13,10 @@ if (isset($_POST['submit'])) {
     $count = mysqli_num_rows($res);
 
     if ($count > 0) {
+        $_SESSION['ADMIN_LOGIN'] = 'yes';
+        $_SESSION['ADMIN_USERNAME'] = $username;
+        header('location:categories.php');
+        die();
     } else {
         $msg = "Please enter correct login details";
     }
